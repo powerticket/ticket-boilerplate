@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: project-nginx
+    image: nginx:alpine
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./frontend/dist/:/usr/share/nginx/html/
+    ports:
+      - 80:80
+  backend:
+    container_name: project-spring
+    image: adoptopenjdk/openjdk11:alpine
+    depends_on: 
+      - database
+    volumes:
+      - ./backend/build/libs/backend-0.0.1-SNAPSHOT.jar:/app.jar
+    entrypoint: ["java", "-jar", "app.jar"]
+    restart: on-failure:5
+  database:
+    container_name: project-mysql
+    image: mysql
+    environment:
+      MYSQL_PASSWORD: spring
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_USER: spring
+      MYSQL_DATABASE: test
