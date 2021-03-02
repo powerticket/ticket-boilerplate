@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/powerticket.github.io/test/static/css/main.dc49d738.chunk.css",
-    "main.js": "/powerticket.github.io/test/static/js/main.86318b82.chunk.js",
-    "main.js.map": "/powerticket.github.io/test/static/js/main.86318b82.chunk.js.map",
-    "runtime-main.js": "/powerticket.github.io/test/static/js/runtime-main.daf7080d.js",
-    "runtime-main.js.map": "/powerticket.github.io/test/static/js/runtime-main.daf7080d.js.map",
-    "static/js/2.7a685f1a.chunk.js": "/powerticket.github.io/test/static/js/2.7a685f1a.chunk.js",
-    "static/js/2.7a685f1a.chunk.js.map": "/powerticket.github.io/test/static/js/2.7a685f1a.chunk.js.map",
-    "index.html": "/powerticket.github.io/test/index.html",
-    "static/css/main.dc49d738.chunk.css.map": "/powerticket.github.io/test/static/css/main.dc49d738.chunk.css.map",
-    "static/js/2.7a685f1a.chunk.js.LICENSE.txt": "/powerticket.github.io/test/static/js/2.7a685f1a.chunk.js.LICENSE.txt"
+    "main.css": "/powerticket.github.io/ticket-boilerplate/static/css/main.dc49d738.chunk.css",
+    "main.js": "/powerticket.github.io/ticket-boilerplate/static/js/main.86318b82.chunk.js",
+    "main.js.map": "/powerticket.github.io/ticket-boilerplate/static/js/main.86318b82.chunk.js.map",
+    "runtime-main.js": "/powerticket.github.io/ticket-boilerplate/static/js/runtime-main.b7e7243e.js",
+    "runtime-main.js.map": "/powerticket.github.io/ticket-boilerplate/static/js/runtime-main.b7e7243e.js.map",
+    "static/js/2.7a685f1a.chunk.js": "/powerticket.github.io/ticket-boilerplate/static/js/2.7a685f1a.chunk.js",
+    "static/js/2.7a685f1a.chunk.js.map": "/powerticket.github.io/ticket-boilerplate/static/js/2.7a685f1a.chunk.js.map",
+    "index.html": "/powerticket.github.io/ticket-boilerplate/index.html",
+    "static/css/main.dc49d738.chunk.css.map": "/powerticket.github.io/ticket-boilerplate/static/css/main.dc49d738.chunk.css.map",
+    "static/js/2.7a685f1a.chunk.js.LICENSE.txt": "/powerticket.github.io/ticket-boilerplate/static/js/2.7a685f1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.daf7080d.js",
+    "static/js/runtime-main.b7e7243e.js",
     "static/js/2.7a685f1a.chunk.js",
     "static/css/main.dc49d738.chunk.css",
     "static/js/main.86318b82.chunk.js"
